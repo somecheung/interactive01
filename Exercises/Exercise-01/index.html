@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Overlaying Patterns CSS</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	
+	<body>
+
+<!--   ROW 1   -->
+	<div>
+		<div class="box-row1">
+		</div>
+
+		<div class="box-row1">
+		</div>
+
+		<div class="box-row1" id="position-static"> <!--static stays in the same place ignoring the top:100px CSS-->
+		</div>
+
+		<div class="box-row1">
+		</div>
+	</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!--   ROW 2   -->
+	<div>
+
+		<div class="box-row2">
+		</div>
+
+		<div class="box-row2">
+		</div>
+
+		<div class="box-row2" id="position-relative"> <!-- you will see that this box is only 100px offset from the top-->
+		</div>									 <!-- of it's containing div-->
+
+		<div class="box-row2">
+		</div>
+
+	</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<!--   ROW 3   -->
+	<div>
+
+		<div class="box-row3">
+		</div>
+
+		<div class="box-row3">
+		</div>
+
+		<div  id="position-absolute">  <!--If you use your inspect tool on  your browser. you will see that-->
+		</div>						   <!--the gray box is 100px from the top of the browser. It completely-->
+									   <!--disregards the div it is contained in.-->
+		<div class="box-row3">
+		</div>
+
+	</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<!--   ROW 4   -->
+	<div>
+
+		<div class="box-row4">
+		</div>
+
+		<div class="box-row4">
+		</div>
+
+		<div  id="position-fixed">
+		</div>						  
+									  
+		<div class="box-row4">
+		</div>
+
+	</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="horizontal-center"></div>
+
+	</body>
+</html>

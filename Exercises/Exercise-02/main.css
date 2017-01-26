@@ -1,0 +1,22 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:white;
+}
+
+
+.horizontal-center{
+	background-color: #0000ff;
+	width: 300px;
+	height: 300px;
+	border: 3px solid #ff0000;
+	margin: 100px auto;
+}
+
+span#special{
+	color:red;
+	font-style: italic;
+}
